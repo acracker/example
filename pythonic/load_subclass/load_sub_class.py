@@ -12,6 +12,7 @@ from pkgutil import iter_modules
 from pythonic.load_subclass.base import Base
 
 
+# 导入指定目录下的子类
 def walk_modules(path):
     mods = []
     mod = import_module(path)
